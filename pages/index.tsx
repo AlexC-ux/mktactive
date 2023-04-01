@@ -18,8 +18,8 @@ export default function Home() {
             fontSize: "10vw",
             width: "100%",
             textAlign: "center",
-            fontFamily:null,
-            fontWeight:null,
+            fontFamily: "unset",
+            fontWeight: 900,
           }}
         >
           <ColoredText color="white">М</ColoredText>о<ColoredText color="blue">К</ColoredText>рый<ColoredText color="red">Т</ColoredText>анк
