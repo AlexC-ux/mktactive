@@ -1,10 +1,12 @@
 import { FixedBgSection } from "@/components/FixedBgSection";
+import { Header } from "@/components/Header";
 import { ColoredText } from "@/components/colored";
 import { Box, Paper, Typography } from "@mui/material";
 
 export default function Home() {
   return (
     <>
+    <Header/>
       <FixedBgSection bgUrl="https://img.freepik.com/free-photo/back-view-of-crowd-of-fans-watching-live-performance-on-music-concert-at-night-copy-space_637285-544.jpg?w=2000">
         <Typography
           color={"grey"}
