@@ -24,7 +24,7 @@ export default function Home() {
         </Typography>
       </FixedBgSection>
       <FixedBgSection bgUrl="https://ca-times.brightspotcdn.com/dims4/default/845afe6/2147483647/strip/true/crop/6720x3780+0+700/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0b%2F86%2F29e75f7e449daba1c767ae7aa073%2Fphoto-2022-08-07-3-41-54-am.png">
-        <></>
+        <>123</>
       </FixedBgSection>
     </>
   )
