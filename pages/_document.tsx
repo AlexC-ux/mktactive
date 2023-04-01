@@ -1,5 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import { CssBaseline } from "@mui/material"
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
@@ -10,7 +9,6 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet" />
       </Head>
       <body>
-        <CssBaseline />
         <Main />
         <NextScript />
       </body>

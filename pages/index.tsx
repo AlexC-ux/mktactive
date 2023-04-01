@@ -3,7 +3,7 @@ import { ColoredText } from "@/components/colored";
 import { Box, Paper, Typography } from "@mui/material";
 import { Montserrat } from "next/font/google"
 
-const titleFont = Montserrat({ weight: "900", subsets: ["cyrillic"] })
+const titleFont = Montserrat({  subsets: ["cyrillic"] })
 
 export default function Home() {
   return (
