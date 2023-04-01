@@ -17,7 +17,9 @@ export default function Home() {
             top: "40%",
             fontSize: "10vw",
             width: "100%",
-            textAlign: "center"
+            textAlign: "center",
+            fontFamily:null,
+            fontWeight:null,
           }}
         >
           <ColoredText color="white">М</ColoredText>о<ColoredText color="blue">К</ColoredText>рый<ColoredText color="red">Т</ColoredText>анк
