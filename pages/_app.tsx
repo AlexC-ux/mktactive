@@ -2,11 +2,14 @@ import '@/styles/globals.css'
 import '@/styles/normalize.css'
 import { ThemeProvider, createTheme } from '@mui/material';
 import type { AppProps } from 'next/app'
+import { Montserrat } from 'next/font/google';
+
+const defaultFont = Montserrat({ subsets: ["cyrillic"] })
 
 const theme = createTheme({
   typography: {
     allVariants: {
-      fontFamily: 'unset',
+      ...defaultFont.style
     },
   },
 });
