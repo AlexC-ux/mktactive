@@ -3,17 +3,13 @@ import '@/styles/normalize.css'
 import { ThemeProvider, createTheme } from '@mui/material';
 import type { AppProps } from 'next/app'
 
-import { Montserrat } from "next/font/google"
-
-
-const montserratFont = Montserrat({ subsets: ["cyrillic"] })
-
 const theme = createTheme({
   typography: {
-    ...montserratFont.style
+    allVariants: {
+      fontFamily: 'unset',
+    },
   },
 });
-
 
 export default function App({ Component, pageProps }: AppProps) {
   return <>

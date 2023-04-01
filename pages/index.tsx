@@ -1,13 +1,16 @@
 import { FixedBgSection } from "@/components/FixedBgSection";
 import { ColoredText } from "@/components/colored";
 import { Box, Paper, Typography } from "@mui/material";
+import { Montserrat } from "next/font/google"
 
+const titleFont = Montserrat({ subsets: ["cyrillic"] })
 
 export default function Home() {
   return (
     <>
       <FixedBgSection bgUrl="https://img.freepik.com/free-photo/back-view-of-crowd-of-fans-watching-live-performance-on-music-concert-at-night-copy-space_637285-544.jpg?w=2000">
         <Typography
+          className={titleFont.className}
           color={"grey"}
           sx={{
             position: "absolute",
@@ -15,6 +18,7 @@ export default function Home() {
             fontSize: "10vw",
             width: "100%",
             textAlign: "center",
+            fontWeight: 900,
           }}
         >
           <ColoredText color="white">М</ColoredText>о<ColoredText color="blue">К</ColoredText>рый<ColoredText color="red">Т</ColoredText>анк

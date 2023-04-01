@@ -5,14 +5,12 @@ export default function Document() {
   return (
     <Html lang="ru">
       <Head >
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet" />
       </Head>
       <body>
-        <CssBaseline />
+        
         <Main />
         <NextScript />
+        <CssBaseline />
       </body>
     </Html>
   )
