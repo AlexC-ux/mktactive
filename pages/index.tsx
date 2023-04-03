@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { ColoredText } from "@/components/colored";
-import { ParalaxPhotoCard } from "@/components/paralaxPhotoCard";
+import { ParallaxCard } from "@/components/ParalaxCard";
 import { Typography } from "@mui/material";
 export default function Home() {
   return (
@@ -34,34 +34,18 @@ export default function Home() {
           height: "100vh",
           position: "relative",
         }}>
-        <ParalaxPhotoCard
-          style={{
-            background: "url('https://miro.medium.com/v2/resize:fit:876/1*pfjI6ZAQvK1SxowAZK-GOg.png')",
-            width: "250px",
-            height: "400px",
-            backgroundPositionX: "950px",
-            backgroundPositionY: "-250px",
-          }} />
+        <div
+        style={{
+          background:"url('https://weeklyhow.com/wp-content/uploads/2019/02/Thu.png')",
+          backgroundAttachment:"fixed",
+          width:"200px",
+          height:"350px",
+          boxShadow:"inset -2px -2px 7px black",
+          margin:"10px",
+          position:"absolute",
+        }}>
 
-        <ParalaxPhotoCard
-          style={{
-            background: "url('https://miro.medium.com/v2/resize:fit:876/1*pfjI6ZAQvK1SxowAZK-GOg.png')",
-            width: "250px",
-            height: "400px",
-            backgroundPositionX: "1350px",
-            backgroundPositionY: "-250px",
-            left:"300px"
-          }} />
-
-        <ParalaxPhotoCard
-          style={{
-            background: "url('https://miro.medium.com/v2/resize:fit:876/1*pfjI6ZAQvK1SxowAZK-GOg.png')",
-            width: "250px",
-            height: "400px",
-            backgroundPositionX: "950px",
-            backgroundPositionY: "-250px",
-            left:"600px"
-          }} />
+        </div>
 
       </section>
     </>
